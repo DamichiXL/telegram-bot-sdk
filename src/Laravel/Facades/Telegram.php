@@ -150,7 +150,7 @@ use Telegram\Bot\BotsManager;
  * @method static \Telegram\Bot\Commands\CommandBus removeCommand(string $name)
  * @method static \Telegram\Bot\Commands\CommandBus removeCommands(array $names)
  */
-final class Telegram extends Facade
+class Telegram extends Facade
 {
     /**
      * Get the registered name of the component.

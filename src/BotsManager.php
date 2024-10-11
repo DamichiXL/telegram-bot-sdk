@@ -13,7 +13,7 @@ use Telegram\Bot\Exceptions\TelegramSDKException;
  *
  * @mixin Api
  */
-final class BotsManager
+class BotsManager
 {
     private ?ContainerInterface $container = null;
 
